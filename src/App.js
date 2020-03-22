@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Menu } from 'antd';
 import { Card, Row } from 'antd';
-import './App.css';
+import '../src/assets/css/App.css';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 const { SubMenu } = Menu;
 
