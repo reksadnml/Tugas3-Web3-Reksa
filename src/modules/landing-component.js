@@ -31,9 +31,9 @@ class LandingComponent extends Component{
                             <Row>
                                 <Col span={24}>
                                     <div className="title-container">
-                                        <span className="text-soft-blue title-biggest bold">Hi! I'am</span>
+                                        <span className="text-soft-blue title-biggest bold">Hello, I'am</span>
                                         <br/>
-                                        <span className="text-soft-blue title-big bold">Eca</span>
+                                        <span className="text-soft-blue title-big bold">Reksa Milenia</span>
                                     </div>
                                 </Col>
                                 <Col span={24}>
@@ -45,7 +45,7 @@ class LandingComponent extends Component{
                                         />
                                     </div>
                                     <div className="description-container desc-medium">
-                                        Assalamualaikum~~
+                                        If your sky are dark, I'll be your star
                                         
                                     </div>
                                 </Col>
