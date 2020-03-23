@@ -6,6 +6,7 @@ import {
   AppstoreOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 
 const { SubMenu } = Menu;
@@ -28,25 +29,13 @@ class Navbar extends Component {
       <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
         <Menu.Item key="mail">
           <MailOutlined />
-          Profile
+            <Link to="/">Profile</Link> 
         </Menu.Item>
         <Menu.Item key="app">
           <AppstoreOutlined />
-          Portofolio
+          <Link to="/portofolio">Portofolio</Link>
         </Menu.Item>
-        <SubMenu
-          title={
-            <span className="submenu-title-wrapper">
-              <SettingOutlined />
-              Team Work
-            </span>
-          }
-        >
-          <Menu.ItemGroup title="Team Working">
-            <Menu.Item key="galigo">UKM Catur</Menu.Item>
-            <Menu.Item key="kopma">Animals Lova</Menu.Item>
-          </Menu.ItemGroup>
-        </SubMenu>
+       
         <Menu.Item key="alipay">
           <a href="https://github.com/reksadnml" target="_blank" rel="noopener noreferrer">
             Repositori Github
